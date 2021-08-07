@@ -10,6 +10,10 @@
     CTRL+P -> cycles words backward
     CTRL+X CTRL+L -> cycles lines
 
+## Editing
+
+    A -> (in normal mode) Vim will be switched to insert mode, and the cursor will be moved to the end of the current line ready for input.
+    
 ## Motion: http://vimdoc.sourceforge.net/htmldoc/motion.html
 
 The motion commands can be used after an operator command, to have the command operate on the text that was moved over. That is the text between the cursor position before and after the motion. Operators are generally used to delete or change text. The following operators are available:
